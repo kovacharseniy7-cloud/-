@@ -1,0 +1,92 @@
+/* Загальна стилізація */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Ліва панель */
+.sidebar {
+    width: 28%;
+    background: #0b2d46;
+    color: #fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+    background: #0d3d60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/* Якщо буде фото */
+/*
+.profile-img img {
+    width: 130px;
+    height: auto;
+}
+*/
+
+.sidebar-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.info-list li {
+    margin: 6px 0;
+}
+
+/* Права частина */
+.content {
+    width: 72%;
+    padding: 40px;
+    background: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.block {
+    margin-bottom: 35px;
+}
+
+.block h1,
+.block h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+}
+
+.block h1 {
+    font-size: 30px;
+}
+
+.block h2 {
+    font-size: 24px;
+}
+
+.block p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.45;
+}
